@@ -1,6 +1,6 @@
 const throttle = require('throttleit')
 
-export default class TTLMap extends Map {
+exports = module.exports = class TTLMap extends Map {
     constructor(iterable = [], ttl = 60000, evictInterval = 10000) {
         super()
         this.ttl = ttl
