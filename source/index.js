@@ -7,7 +7,6 @@ export default class TTLMap extends Map {
         this.evictInterval = evictInterval
         this.deleteExpired = throttle(
             () => {
-                console.log('deleteExpired', Date.now())
                 this.ledger.forEach(
                     (value, key) => {
                         if(Date.now() > value) {
