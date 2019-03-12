@@ -1,11 +1,8 @@
 {
-  "name": "@oudyworks/ttlmap",
-  "version": "1.0.5",
+  "name": "@oudy/ttlmap",
+  "version": "1.0.0",
   "description": "Map with TTL",
   "main": "index.js",
-  "scripts": {
-    "build": "babel source --out-dir npm"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/OudyWorks/TTLMap.git"
@@ -23,6 +20,6 @@
   },
   "homepage": "https://github.com/OudyWorks/TTLMap#readme",
   "dependencies": {
-    "throttleit": "^1.0.0"
+    "lodash.throttle": "^4.1.1"
   }
 }
