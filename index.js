@@ -1,7 +1,7 @@
-const throttle = require('lodash.throttle')
+import throttle from 'lodash.throttle'
 
-module.exports = class TTLMap extends Map {
-  constructor(iterable = [], ttl = 60000, evictInterval = 10000, remove = function(value, key) {}) {
+export default class TTLMap extends Map {
+  constructor(iterable = [], ttl = 60000, evictInterval = 10000, remove = function (value, key) { }) {
     super()
     this.ttl = ttl
     this.evictInterval = evictInterval

@@ -1,6 +1,6 @@
 {
   "name": "@oudy/ttlmap",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Map with TTL",
   "main": "index.js",
   "repository": {
